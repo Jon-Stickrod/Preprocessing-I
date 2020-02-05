@@ -1,1 +1,311 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  background-color: #e5dfdf;
+  font-family: 'Asap', sans-serif;
+}
+.content {
+  padding: 15px;
+  margin: 0% auto;
+  display: flex;
+}
+.bord {
+  border-bottom: 2px solid #1d4d4f;
+  width: 90%;
+}
+nav {
+  background-color: #357376;
+  padding: 15px;
+  margin: 0% auto;
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  background-color: #e5dfdf;
+  padding: 15px;
+  border: 2px solid #1d4d4f;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #357376;
+}
+nav a:hover {
+  background-color: #357376;
+  color: #e5dfdf;
+}
+.me-img {
+  height: 30%;
+  width: 30%;
+  padding: 15px;
+  margin: 0% auto;
+  display: flex;
+}
+.intro {
+  background-color: #6ba8a9;
+  padding: 15px;
+  margin: 0% auto;
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+}
+.intro h1 {
+  padding: 15px;
+  margin: 0% auto;
+  display: flex;
+  font-size: 2.5em;
+  border-bottom: 2px solid #1d4d4f;
+  width: 90%;
+  justify-content: center;
+}
+.intro p {
+  padding: 15px;
+  margin: 0% auto;
+  display: flex;
+}
+.intro button {
+  padding: 15px;
+  margin: 0% auto;
+  display: flex;
+  background-color: #1d4d4f;
+  border-color: #357376;
+  color: #e5dfdf;
+  margin-top: 30px;
+}
+.skills {
+  padding: 15px;
+  margin: 0% auto;
+  display: flex;
+  width: 85vw;
+  align-items: flex-start;
+}
+.skills .div1 {
+  width: 50%;
+  padding: 15px;
+  margin: 0% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 30px;
+}
+.skills .div2 {
+  padding: 15px;
+  margin: 0% auto;
+  display: flex;
+  flex-direction: column;
+}
+.skills .div2 section {
+  padding: 15px;
+  margin: 0% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.skills .div2 section p {
+  padding: 7.5px;
+  border: 1px solid #1d4d4f;
+  width: 25vw;
+  padding: 15px;
+  margin: 0% auto;
+  display: flex;
+  justify-content: center;
+}
+.skills h2 {
+  font-size: 1.75em;
+  padding: 15px;
+  margin: 0% auto;
+  display: flex;
+}
+.work-history {
+  padding: 15px;
+  margin: 0% auto;
+  display: flex;
+  width: 85vw;
+  flex-direction: column;
+  border-bottom: 2px solid #1d4d4f;
+  width: 90%;
+}
+.work-history h2 {
+  font-size: 1.75em;
+  margin-bottom: 15px;
+}
+.work-history div {
+  padding: 15px;
+  margin: 0% auto;
+  display: flex;
+  border-top: 1px solid black;
+  width: 100%;
+}
+.work-history div p {
+  padding: 15px;
+  margin: 0% auto;
+  display: flex;
+  justify-content: space-around;
+}
+.work-history .col {
+  background-color: #6ba8a9;
+}
+.work-history .col2 {
+  background-color: #357376;
+}
+footer {
+  padding: 15px;
+  margin: 0% auto;
+  display: flex;
+  width: 85vw;
+  flex-direction: column;
+}
+footer a {
+  padding-bottom: 15px;
+}
+footer .cen {
+  padding: 15px;
+  margin: 0% auto;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  .intro img {
+    width: 70%;
+    height: 70%;
+  }
+  .skills {
+    padding: 15px;
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .skills .div1 {
+    width: 80vw;
+  }
+}
